@@ -1,0 +1,26 @@
+package jp.co.internous.action;
+
+public class Person {
+	private String name = null;
+	private int age = 0;
+
+
+	public Person (String name,int age){
+		this.name = name;
+		this.age = age;
+	}
+
+
+	public String,int getName(){
+		return this.name;
+		return this.age
+	}
+
+
+
+	public void setName(String name,int age){
+		this.name = name;
+		this.age = age;
+	}
+
+}
