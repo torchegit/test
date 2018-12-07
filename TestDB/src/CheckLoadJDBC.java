@@ -10,7 +10,7 @@ public class CheckLoadJDBC {
 		Class.forName("com.mysql.jdbc.Driver").newInstance();
 		msg = "ドライバーのロードに成功しました";
 		} catch(ClassNotFoundException e){
-			msg = "ドライバーのロードに失敗しました";
+		msg = "ドライバーのロードに失敗しました";
 		}
 		System.out.println(msg);
 	}

@@ -1,6 +1,6 @@
-drop database if exists testdb;
-create database testdb;
-use testdb;
+drop database if exists testdb_kamei;
+create database testdb_kamei;
+use testdb_kamei;
 
 create table test_table(
 user_id int,
