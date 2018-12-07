@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 !SESSION 2018-12-07 19:03:19.533 -----------------------------------------------
+=======
+!SESSION 2018-12-05 19:21:44.237 -----------------------------------------------
+>>>>>>> 9df263e4bd380b23dc2d6341bae8a26045f89032
 eclipse.buildId=4.5.2.M20160212-1500
 java.version=1.8.0_74
 java.vendor=Oracle Corporation
@@ -6,7 +10,11 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.ui 4 0 2018-12-07 19:03:52.824
+=======
+!ENTRY org.eclipse.ui 4 0 2018-12-05 19:23:17.349
+>>>>>>> 9df263e4bd380b23dc2d6341bae8a26045f89032
 !MESSAGE 未処理のイベント・ループ例外
 !STACK 0
 org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NoSuchMethodError: org.eclipse.ui.internal.registry.FileEditorMapping.setDefaultEditor(Lorg/eclipse/ui/internal/registry/EditorDescriptor;)V)
@@ -44,15 +52,25 @@ Caused by: java.lang.NoSuchMethodError: org.eclipse.ui.internal.registry.FileEdi
 	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
 	... 23 more
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.jface 2 0 2018-12-07 19:05:53.774
 !MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
 !SUBENTRY 1 org.eclipse.jface 2 0 2018-12-07 19:05:53.774
+=======
+!ENTRY org.eclipse.jface 2 0 2018-12-05 19:28:50.621
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-12-05 19:28:50.621
+>>>>>>> 9df263e4bd380b23dc2d6341bae8a26045f89032
 !MESSAGE ALT+CTRL+SPACE の競合が発生しました:
 Binding(ALT+CTRL+SPACE,
 	ParameterizedCommand(Command(AnyEdit.CnvrtTabToSpaces.command,タブをスペースに,
 		,
 		Category(AnyEdit.category,AnyEdit ツール,AnyEdit ツール・キー・バインド,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@45144fdf,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14404be2,
+>>>>>>> 9df263e4bd380b23dc2d6341bae8a26045f89032
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.textEditorScope,,,system)
@@ -60,11 +78,16 @@ Binding(ALT+CTRL+SPACE,
 	ParameterizedCommand(Command(org.eclipse.recommenders.snipmatch.rcp.commands.completion,Snipmatch スニペット・コンプリート,
 		Open a dialog to search for and insert code snippets,
 		Category(org.eclipse.jdt.ui.category.source,ソース,Java ソース・アクション,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6d512521,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@41277db,
+>>>>>>> 9df263e4bd380b23dc2d6341bae8a26045f89032
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.textEditorScope,,,system)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.jdt.core 4 4 2018-12-07 19:14:44.015
 !MESSAGE JavaBuilder handling CoreException
 !STACK 1
@@ -937,3 +960,69 @@ Binding(ALT+CTRL+SPACE,
 
 !ENTRY org.eclipse.ui 2 2 2018-12-07 21:14:17.856
 !MESSAGE Invalid preference category path: org.nodeclipse.enide.gradle.preferences.GradlePreferencePage (bundle: org.nodeclipse.enide.editors.gradle, page: org.nodeclipse.enide.editors.gradle.preferences.GradleEditorPreferencePage)
+=======
+!ENTRY org.eclipse.ui 4 4 2018-12-05 19:29:26.543
+!MESSAGE Unable to process element: view in perspective extension: null
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2018-12-05 20:14:03.757
+!MESSAGE Full project indexing required:
+  [+] C:\pleiades\java\8\jre\lib\charsets.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\access-bridge-64.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\cldrdata.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\dnsns.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\jaccess.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\jfxrt.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\localedata.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\nashorn.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\sunec.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\sunjce_provider.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\sunmscapi.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\sunpkcs11.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\zipfs.jar
+  [+] C:\pleiades\java\8\jre\lib\jce.jar
+  [+] C:\pleiades\java\8\jre\lib\jfr.jar
+  [+] C:\pleiades\java\8\jre\lib\jsse.jar
+  [+] C:\pleiades\java\8\jre\lib\resources.jar
+  [+] C:\pleiades\java\8\jre\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:167)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2018-12-05 20:26:56.686
+!MESSAGE Full project indexing required:
+  [+] C:\pleiades\java\8\jre\lib\charsets.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\access-bridge-64.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\cldrdata.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\dnsns.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\jaccess.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\jfxrt.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\localedata.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\nashorn.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\sunec.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\sunjce_provider.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\sunmscapi.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\sunpkcs11.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\zipfs.jar
+  [+] C:\pleiades\java\8\jre\lib\jce.jar
+  [+] C:\pleiades\java\8\jre\lib\jfr.jar
+  [+] C:\pleiades\java\8\jre\lib\jsse.jar
+  [+] C:\pleiades\java\8\jre\lib\resources.jar
+  [+] C:\pleiades\java\8\jre\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:167)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:745)
+>>>>>>> 9df263e4bd380b23dc2d6341bae8a26045f89032

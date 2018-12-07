@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<<<<<<< HEAD:.metadata/.plugins/org.eclipse.debug.core/.launches/Capsule.launch:.metadata/.plugins/org.eclipse.debug.core/.launches/Capsule.launch
+<listEntry value="/Capsule/src/jp/co/internous/action/Capsule.java"/>
+=======
+<listEntry value="/Person2/src/jp/co/internous/action/Test.java"/>
+>>>>>>> 9df263e4bd380b23dc2d6341bae8a26045f89032:.metadata/.plugins/org.eclipse.debug.core/.launches/Test.launch:.metadata/.plugins/org.eclipse.debug.core/.launches/Test.launch
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<<<<<<< HEAD:.metadata/.plugins/org.eclipse.debug.core/.launches/Capsule.launch:.metadata/.plugins/org.eclipse.debug.core/.launches/Capsule.launch
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="jp.co.internous.action.Capsule"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Capsule"/>
+=======
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="jp.co.internous.action.Test"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Person2"/>
+>>>>>>> 9df263e4bd380b23dc2d6341bae8a26045f89032:.metadata/.plugins/org.eclipse.debug.core/.launches/Test.launch:.metadata/.plugins/org.eclipse.debug.core/.launches/Test.launch
+</launchConfiguration>
