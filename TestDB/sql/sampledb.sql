@@ -1,6 +1,6 @@
-drop database if exists sampledb;
-create database sampledb;
-use sampledb;
+drop database if exists sampledb_kamei;
+create database sampledb_kamei;
+use sampledb_kamei;
 
 create table sample_table(
 No int,name varchar(50),age int,Mail varchar(50));
