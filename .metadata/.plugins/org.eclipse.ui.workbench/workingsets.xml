@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
+<<<<<<< HEAD
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1544436370764_0" label="ウィンドウ・ワーキング・セット" name="Aggregate for window 1544436370764"/>
+=======
+<<<<<<< HEAD
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1544177027544_0" label="ウィンドウ・ワーキング・セット" name="Aggregate for window 1544177027543"/>
+=======
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1544005392091_0" label="ウィンドウ・ワーキング・セット" name="Aggregate for window 1544005392090"/>
+>>>>>>> 9df263e4bd380b23dc2d6341bae8a26045f89032
+>>>>>>> a78d68bb2b4861f21ae230e8c7fbaa556649e6f7
 </workingSetManager>

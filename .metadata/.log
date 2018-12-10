@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 !SESSION 2018-12-10 19:05:49.170 -----------------------------------------------
+=======
+<<<<<<< HEAD
+!SESSION 2018-12-07 19:03:19.533 -----------------------------------------------
+=======
+!SESSION 2018-12-05 19:21:44.237 -----------------------------------------------
+>>>>>>> 9df263e4bd380b23dc2d6341bae8a26045f89032
+>>>>>>> a78d68bb2b4861f21ae230e8c7fbaa556649e6f7
 eclipse.buildId=4.5.2.M20160212-1500
 java.version=1.8.0_74
 java.vendor=Oracle Corporation
@@ -6,7 +14,15 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
 Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.ui 4 0 2018-12-10 19:06:16.075
+=======
+<<<<<<< HEAD
+!ENTRY org.eclipse.ui 4 0 2018-12-07 19:03:52.824
+=======
+!ENTRY org.eclipse.ui 4 0 2018-12-05 19:23:17.349
+>>>>>>> 9df263e4bd380b23dc2d6341bae8a26045f89032
+>>>>>>> a78d68bb2b4861f21ae230e8c7fbaa556649e6f7
 !MESSAGE 未処理のイベント・ループ例外
 !STACK 0
 org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NoSuchMethodError: org.eclipse.ui.internal.registry.FileEditorMapping.setDefaultEditor(Lorg/eclipse/ui/internal/registry/EditorDescriptor;)V)
@@ -44,15 +60,35 @@ Caused by: java.lang.NoSuchMethodError: org.eclipse.ui.internal.registry.FileEdi
 	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
 	... 23 more
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.jface 2 0 2018-12-10 19:08:11.140
 !MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
 !SUBENTRY 1 org.eclipse.jface 2 0 2018-12-10 19:08:11.140
+=======
+<<<<<<< HEAD
+!ENTRY org.eclipse.jface 2 0 2018-12-07 19:05:53.774
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-12-07 19:05:53.774
+=======
+!ENTRY org.eclipse.jface 2 0 2018-12-05 19:28:50.621
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-12-05 19:28:50.621
+>>>>>>> 9df263e4bd380b23dc2d6341bae8a26045f89032
+>>>>>>> a78d68bb2b4861f21ae230e8c7fbaa556649e6f7
 !MESSAGE ALT+CTRL+SPACE の競合が発生しました:
 Binding(ALT+CTRL+SPACE,
 	ParameterizedCommand(Command(AnyEdit.CnvrtTabToSpaces.command,タブをスペースに,
 		,
 		Category(AnyEdit.category,AnyEdit ツール,AnyEdit ツール・キー・バインド,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@f9b97dc,
+=======
+<<<<<<< HEAD
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@45144fdf,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14404be2,
+>>>>>>> 9df263e4bd380b23dc2d6341bae8a26045f89032
+>>>>>>> a78d68bb2b4861f21ae230e8c7fbaa556649e6f7
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.textEditorScope,,,system)
@@ -60,13 +96,61 @@ Binding(ALT+CTRL+SPACE,
 	ParameterizedCommand(Command(org.eclipse.recommenders.snipmatch.rcp.commands.completion,Snipmatch スニペット・コンプリート,
 		Open a dialog to search for and insert code snippets,
 		Category(org.eclipse.jdt.ui.category.source,ソース,Java ソース・アクション,true),
+<<<<<<< HEAD
 		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5d354d8,
+=======
+<<<<<<< HEAD
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6d512521,
+=======
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@41277db,
+>>>>>>> 9df263e4bd380b23dc2d6341bae8a26045f89032
+>>>>>>> a78d68bb2b4861f21ae230e8c7fbaa556649e6f7
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.textEditorScope,,,system)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.datatools.connectivity 2 -1 2018-12-10 19:20:12.815
 !MESSAGE 新規 MySQL への JDBC 接続 接続の作成中にエラーが発生しました。(エラー: Access denied for user 'root'@'localhost' (using password: NO))
+=======
+<<<<<<< HEAD
+!ENTRY org.eclipse.jdt.core 4 4 2018-12-07 19:14:44.015
+!MESSAGE JavaBuilder handling CoreException
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: 異なるケースを持つリソース '/Iphone/bin/jp/co/internous/action/Smartphone.class' が存在します。
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:322)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:300)
+	at org.eclipse.core.internal.resources.File.create(File.java:106)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFileContents(AbstractImageBuilder.java:880)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.writeClassFile(AbstractImageBuilder.java:859)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:190)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:589)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:458)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:367)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.compile(BatchImageBuilder.java:179)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:304)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:61)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:256)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:272)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:195)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:205)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:245)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:300)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:359)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:382)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 275 2018-12-07 19:14:44.016
+!MESSAGE 異なるケースを持つリソース '/Iphone/bin/jp/co/internous/action/Smartphone.class' が存在します。
+
+!ENTRY org.eclipse.datatools.connectivity 2 -1 2018-12-07 20:38:46.170
+!MESSAGE testdb への JDBC 接続 接続の作成中にエラーが発生しました。(エラー: Access denied for user 'root'@'localhost' (using password: NO))
+>>>>>>> a78d68bb2b4861f21ae230e8c7fbaa556649e6f7
 !STACK 0
 java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: NO)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
@@ -98,8 +182,13 @@ java.sql.SQLException: Access denied for user 'root'@'localhost' (using password
 	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.datatools.connectivity 2 -1 2018-12-10 19:20:12.826
 !MESSAGE 新規 MySQL への SQL モデル接続 接続の作成中にエラーが発生しました。(エラー: Access denied for user 'root'@'localhost' (using password: NO))
+=======
+!ENTRY org.eclipse.datatools.connectivity 2 -1 2018-12-07 20:38:46.191
+!MESSAGE testdb への SQL モデル接続 接続の作成中にエラーが発生しました。(エラー: Access denied for user 'root'@'localhost' (using password: NO))
+>>>>>>> a78d68bb2b4861f21ae230e8c7fbaa556649e6f7
 !STACK 0
 java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: NO)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
@@ -137,10 +226,17 @@ java.sql.SQLException: Access denied for user 'root'@'localhost' (using password
 	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.datatools.connectivity 4 -1 2018-12-10 19:20:12.868
 !MESSAGE 新規 MySQL へ接続できませんでした。
 !SUBENTRY 1 org.eclipse.datatools.connectivity 2 -1 2018-12-10 19:20:12.869
 !MESSAGE 新規 MySQL への SQL モデル接続 接続の作成中にエラーが発生しました。(エラー: Access denied for user 'root'@'localhost' (using password: NO))
+=======
+!ENTRY org.eclipse.datatools.connectivity 4 -1 2018-12-07 20:38:46.225
+!MESSAGE testdb へ接続できませんでした。
+!SUBENTRY 1 org.eclipse.datatools.connectivity 2 -1 2018-12-07 20:38:46.226
+!MESSAGE testdb への SQL モデル接続 接続の作成中にエラーが発生しました。(エラー: Access denied for user 'root'@'localhost' (using password: NO))
+>>>>>>> a78d68bb2b4861f21ae230e8c7fbaa556649e6f7
 !STACK 0
 java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: NO)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
@@ -177,8 +273,13 @@ java.sql.SQLException: Access denied for user 'root'@'localhost' (using password
 	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:163)
 	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.datatools.connectivity 2 -1 2018-12-10 19:20:12.869
 !MESSAGE 新規 MySQL への JDBC 接続 接続の作成中にエラーが発生しました。(エラー: Access denied for user 'root'@'localhost' (using password: NO))
+=======
+!SUBENTRY 1 org.eclipse.datatools.connectivity 2 -1 2018-12-07 20:38:46.226
+!MESSAGE testdb への JDBC 接続 接続の作成中にエラーが発生しました。(エラー: Access denied for user 'root'@'localhost' (using password: NO))
+>>>>>>> a78d68bb2b4861f21ae230e8c7fbaa556649e6f7
 !STACK 0
 java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: NO)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
@@ -210,8 +311,13 @@ java.sql.SQLException: Access denied for user 'root'@'localhost' (using password
 	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.datatools.connectivity 2 -1 2018-12-10 19:20:13.068
 !MESSAGE 新規 MySQL への JDBC 接続 接続の作成中にエラーが発生しました。(エラー: Access denied for user 'root'@'localhost' (using password: NO))
+=======
+!ENTRY org.eclipse.datatools.connectivity 2 -1 2018-12-07 20:38:46.278
+!MESSAGE testdb への JDBC 接続 接続の作成中にエラーが発生しました。(エラー: Access denied for user 'root'@'localhost' (using password: NO))
+>>>>>>> a78d68bb2b4861f21ae230e8c7fbaa556649e6f7
 !STACK 0
 java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: NO)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
@@ -243,8 +349,13 @@ java.sql.SQLException: Access denied for user 'root'@'localhost' (using password
 	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.datatools.connectivity 2 -1 2018-12-10 19:20:13.116
 !MESSAGE 新規 MySQL への SQL モデル接続 接続の作成中にエラーが発生しました。(エラー: Access denied for user 'root'@'localhost' (using password: NO))
+=======
+!ENTRY org.eclipse.datatools.connectivity 2 -1 2018-12-07 20:38:46.297
+!MESSAGE testdb への SQL モデル接続 接続の作成中にエラーが発生しました。(エラー: Access denied for user 'root'@'localhost' (using password: NO))
+>>>>>>> a78d68bb2b4861f21ae230e8c7fbaa556649e6f7
 !STACK 0
 java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: NO)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
@@ -282,10 +393,17 @@ java.sql.SQLException: Access denied for user 'root'@'localhost' (using password
 	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.datatools.connectivity 4 -1 2018-12-10 19:20:13.124
 !MESSAGE 新規 MySQL へ接続できませんでした。
 !SUBENTRY 1 org.eclipse.datatools.connectivity 2 -1 2018-12-10 19:20:13.124
 !MESSAGE 新規 MySQL への SQL モデル接続 接続の作成中にエラーが発生しました。(エラー: Access denied for user 'root'@'localhost' (using password: NO))
+=======
+!ENTRY org.eclipse.datatools.connectivity 4 -1 2018-12-07 20:38:46.364
+!MESSAGE testdb へ接続できませんでした。
+!SUBENTRY 1 org.eclipse.datatools.connectivity 2 -1 2018-12-07 20:38:46.368
+!MESSAGE testdb への SQL モデル接続 接続の作成中にエラーが発生しました。(エラー: Access denied for user 'root'@'localhost' (using password: NO))
+>>>>>>> a78d68bb2b4861f21ae230e8c7fbaa556649e6f7
 !STACK 0
 java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: NO)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
@@ -322,8 +440,13 @@ java.sql.SQLException: Access denied for user 'root'@'localhost' (using password
 	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:163)
 	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.datatools.connectivity 2 -1 2018-12-10 19:20:13.128
 !MESSAGE 新規 MySQL への JDBC 接続 接続の作成中にエラーが発生しました。(エラー: Access denied for user 'root'@'localhost' (using password: NO))
+=======
+!SUBENTRY 1 org.eclipse.datatools.connectivity 2 -1 2018-12-07 20:38:46.373
+!MESSAGE testdb への JDBC 接続 接続の作成中にエラーが発生しました。(エラー: Access denied for user 'root'@'localhost' (using password: NO))
+>>>>>>> a78d68bb2b4861f21ae230e8c7fbaa556649e6f7
 !STACK 0
 java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: NO)
 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
@@ -355,6 +478,7 @@ java.sql.SQLException: Access denied for user 'root'@'localhost' (using password
 	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.ui 4 4 2018-12-10 19:21:25.812
 !MESSAGE Unable to process element: view in perspective extension: null
 
@@ -542,6 +666,317 @@ java.lang.IllegalArgumentException: Index out of bounds
 	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
 	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+=======
+!ENTRY org.eclipse.datatools.connectivity 2 -1 2018-12-07 20:39:32.333
+!MESSAGE testdb1 への SQL モデル接続 接続の作成中にエラーが発生しました。(エラー: Access denied for user 'root'@'localhost' (using password: NO))
+!STACK 0
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: NO)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.createConnection(JDBCConnection.java:328)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.internalCreateConnection(DriverConnectionBase.java:105)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.open(DriverConnectionBase.java:54)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.open(JDBCConnection.java:96)
+	at org.eclipse.datatools.enablement.internal.mysql.connection.JDBCMySQLConnectionFactory.createConnection(JDBCMySQLConnectionFactory.java:28)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:359)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.initializeJDBCConnection(ConnectionInfoImpl.java:705)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.<init>(ConnectionInfoImpl.java:690)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:38)
+	at org.eclipse.datatools.connectivity.sqm.core.SQMConnectionFactory.createConnection(SQMConnectionFactory.java:45)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:59)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryAdapterProvider.createConnection(ConnectionFactoryAdapterProvider.java:114)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:163)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.datatools.connectivity 2 -1 2018-12-07 20:39:32.343
+!MESSAGE testdb1 への JDBC 接続 接続の作成中にエラーが発生しました。(エラー: Access denied for user 'root'@'localhost' (using password: NO))
+!STACK 0
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: NO)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.createConnection(JDBCConnection.java:328)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.internalCreateConnection(DriverConnectionBase.java:105)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.open(DriverConnectionBase.java:54)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.open(JDBCConnection.java:96)
+	at org.eclipse.datatools.enablement.internal.mysql.connection.JDBCMySQLConnectionFactory.createConnection(JDBCMySQLConnectionFactory.java:28)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:359)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:166)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.datatools.connectivity 4 -1 2018-12-07 20:39:32.387
+!MESSAGE testdb1 へ接続できませんでした。
+!SUBENTRY 1 org.eclipse.datatools.connectivity 2 -1 2018-12-07 20:39:32.387
+!MESSAGE testdb1 への SQL モデル接続 接続の作成中にエラーが発生しました。(エラー: Access denied for user 'root'@'localhost' (using password: NO))
+!STACK 0
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: NO)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.createConnection(JDBCConnection.java:328)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.internalCreateConnection(DriverConnectionBase.java:105)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.open(DriverConnectionBase.java:54)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.open(JDBCConnection.java:96)
+	at org.eclipse.datatools.enablement.internal.mysql.connection.JDBCMySQLConnectionFactory.createConnection(JDBCMySQLConnectionFactory.java:28)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:359)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.initializeJDBCConnection(ConnectionInfoImpl.java:705)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.<init>(ConnectionInfoImpl.java:690)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:38)
+	at org.eclipse.datatools.connectivity.sqm.core.SQMConnectionFactory.createConnection(SQMConnectionFactory.java:45)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:59)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryAdapterProvider.createConnection(ConnectionFactoryAdapterProvider.java:114)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:163)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.datatools.connectivity 2 -1 2018-12-07 20:39:32.387
+!MESSAGE testdb1 への JDBC 接続 接続の作成中にエラーが発生しました。(エラー: Access denied for user 'root'@'localhost' (using password: NO))
+!STACK 0
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: NO)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.createConnection(JDBCConnection.java:328)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.internalCreateConnection(DriverConnectionBase.java:105)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.open(DriverConnectionBase.java:54)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.open(JDBCConnection.java:96)
+	at org.eclipse.datatools.enablement.internal.mysql.connection.JDBCMySQLConnectionFactory.createConnection(JDBCMySQLConnectionFactory.java:28)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:359)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:166)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.datatools.connectivity 2 -1 2018-12-07 20:39:32.446
+!MESSAGE testdb1 への SQL モデル接続 接続の作成中にエラーが発生しました。(エラー: Access denied for user 'root'@'localhost' (using password: NO))
+!STACK 0
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: NO)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.createConnection(JDBCConnection.java:328)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.internalCreateConnection(DriverConnectionBase.java:105)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.open(DriverConnectionBase.java:54)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.open(JDBCConnection.java:96)
+	at org.eclipse.datatools.enablement.internal.mysql.connection.JDBCMySQLConnectionFactory.createConnection(JDBCMySQLConnectionFactory.java:28)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:359)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.initializeJDBCConnection(ConnectionInfoImpl.java:705)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.<init>(ConnectionInfoImpl.java:690)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:38)
+	at org.eclipse.datatools.connectivity.sqm.core.SQMConnectionFactory.createConnection(SQMConnectionFactory.java:45)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:59)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryAdapterProvider.createConnection(ConnectionFactoryAdapterProvider.java:114)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:163)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.datatools.connectivity 2 -1 2018-12-07 20:39:32.459
+!MESSAGE testdb1 への JDBC 接続 接続の作成中にエラーが発生しました。(エラー: Access denied for user 'root'@'localhost' (using password: NO))
+!STACK 0
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: NO)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.createConnection(JDBCConnection.java:328)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.internalCreateConnection(DriverConnectionBase.java:105)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.open(DriverConnectionBase.java:54)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.open(JDBCConnection.java:96)
+	at org.eclipse.datatools.enablement.internal.mysql.connection.JDBCMySQLConnectionFactory.createConnection(JDBCMySQLConnectionFactory.java:28)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:359)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:166)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.datatools.connectivity 4 -1 2018-12-07 20:39:32.524
+!MESSAGE testdb1 へ接続できませんでした。
+!SUBENTRY 1 org.eclipse.datatools.connectivity 2 -1 2018-12-07 20:39:32.524
+!MESSAGE testdb1 への SQL モデル接続 接続の作成中にエラーが発生しました。(エラー: Access denied for user 'root'@'localhost' (using password: NO))
+!STACK 0
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: NO)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.createConnection(JDBCConnection.java:328)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.internalCreateConnection(DriverConnectionBase.java:105)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.open(DriverConnectionBase.java:54)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.open(JDBCConnection.java:96)
+	at org.eclipse.datatools.enablement.internal.mysql.connection.JDBCMySQLConnectionFactory.createConnection(JDBCMySQLConnectionFactory.java:28)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:359)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.initializeJDBCConnection(ConnectionInfoImpl.java:705)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.<init>(ConnectionInfoImpl.java:690)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:38)
+	at org.eclipse.datatools.connectivity.sqm.core.SQMConnectionFactory.createConnection(SQMConnectionFactory.java:45)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:59)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryAdapterProvider.createConnection(ConnectionFactoryAdapterProvider.java:114)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:163)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.datatools.connectivity 2 -1 2018-12-07 20:39:32.524
+!MESSAGE testdb1 への JDBC 接続 接続の作成中にエラーが発生しました。(エラー: Access denied for user 'root'@'localhost' (using password: NO))
+!STACK 0
+java.sql.SQLException: Access denied for user 'root'@'localhost' (using password: NO)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:871)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1714)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1224)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2199)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2230)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2025)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:778)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:386)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.createConnection(JDBCConnection.java:328)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.internalCreateConnection(DriverConnectionBase.java:105)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.open(DriverConnectionBase.java:54)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.open(JDBCConnection.java:96)
+	at org.eclipse.datatools.enablement.internal.mysql.connection.JDBCMySQLConnectionFactory.createConnection(JDBCMySQLConnectionFactory.java:28)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:359)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:166)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.ui 4 4 2018-12-07 20:39:45.002
+!MESSAGE Unable to process element: view in perspective extension: null
+!SESSION 2018-12-07 20:44:02.786 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_74
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 4 0 2018-12-07 20:44:29.465
+!MESSAGE 未処理のイベント・ループ例外
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NoSuchMethodError: org.eclipse.ui.internal.registry.FileEditorMapping.setDefaultEditor(Lorg/eclipse/ui/internal/registry/EditorDescriptor;)V)
+	at org.eclipse.swt.SWT.error(SWT.java:4491)
+	at org.eclipse.swt.SWT.error(SWT.java:4406)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:138)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4155)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3772)
+>>>>>>> a78d68bb2b4861f21ae230e8c7fbaa556649e6f7
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
@@ -563,8 +998,27 @@ java.lang.IllegalArgumentException: Index out of bounds
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+<<<<<<< HEAD
 
 !ENTRY org.eclipse.ui 4 0 2018-12-10 20:13:32.315
+=======
+Caused by: java.lang.NoSuchMethodError: org.eclipse.ui.internal.registry.FileEditorMapping.setDefaultEditor(Lorg/eclipse/ui/internal/registry/EditorDescriptor;)V
+	at org.sf.feeling.decompiler.Startup$SetupClassFileAssociationRunnable.run(Startup.java:81)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:162)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:154)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	... 23 more
+!SESSION 2018-12-07 20:47:38.954 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_74
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 4 0 2018-12-07 20:48:08.266
+>>>>>>> a78d68bb2b4861f21ae230e8c7fbaa556649e6f7
 !MESSAGE 未処理のイベント・ループ例外
 !STACK 0
 org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.IllegalArgumentException: Index out of bounds)
@@ -668,6 +1122,7 @@ Caused by: java.lang.IllegalArgumentException: Index out of bounds
 	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
 	... 23 more
 
+<<<<<<< HEAD
 !ENTRY org.eclipse.text 4 2 2018-12-10 20:13:32.775
 !MESSAGE プラグイン "org.eclipse.text" からのコードの起動で問題が発生しました。
 !STACK 0
@@ -1603,6 +2058,12 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 !MESSAGE マーカーの除去中にエラーが発生しました
 !STACK 1
 org.eclipse.core.internal.resources.ResourceException: リソース '/TestDB2/sql/testdb.sql' が存在しません。
+=======
+!ENTRY org.eclipse.datatools.sqltools.sqleditor 4 0 2018-12-07 20:58:45.903
+!MESSAGE マーカーの除去中にエラーが発生しました
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: リソース '/TestDB/sql/sampledb.sql' が存在しません。
+>>>>>>> a78d68bb2b4861f21ae230e8c7fbaa556649e6f7
 	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:334)
 	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:208)
 	at org.eclipse.core.internal.resources.Resource.deleteMarkers(Resource.java:822)
@@ -1738,6 +2199,7 @@ org.eclipse.core.internal.resources.ResourceException: リソース '/TestDB2/sq
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+<<<<<<< HEAD
 !SUBENTRY 1 org.eclipse.core.resources 4 368 2018-12-10 20:44:09.033
 !MESSAGE リソース '/TestDB2/sql/testdb.sql' が存在しません。
 
@@ -1789,3 +2251,97 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 	at java.security.cert.CertPathBuilder.build(CertPathBuilder.java:280)
 	at sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:382)
 	... 30 more
+=======
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2018-12-07 20:58:45.908
+!MESSAGE リソース '/TestDB/sql/sampledb.sql' が存在しません。
+
+!ENTRY org.eclipse.jface 2 0 2018-12-07 20:58:53.194
+!MESSAGE キーバインドの競合が発生しました。 通常のアクセラレーター操作を妨げる可能性があります。
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-12-07 20:58:53.194
+!MESSAGE ALT+CTRL+SPACE の競合が発生しました:
+Binding(ALT+CTRL+SPACE,
+	ParameterizedCommand(Command(AnyEdit.CnvrtTabToSpaces.command,タブをスペースに,
+		,
+		Category(AnyEdit.category,AnyEdit ツール,AnyEdit ツール・キー・バインド,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3dc86e03,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(ALT+CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.recommenders.snipmatch.rcp.commands.completion,Snipmatch スニペット・コンプリート,
+		Open a dialog to search for and insert code snippets,
+		Category(org.eclipse.jdt.ui.category.source,ソース,Java ソース・アクション,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@62640933,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2018-12-07 21:14:17.856
+!MESSAGE Invalid preference category path: org.nodeclipse.enide.gradle.preferences.GradlePreferencePage (bundle: org.nodeclipse.enide.editors.gradle, page: org.nodeclipse.enide.editors.gradle.preferences.GradleEditorPreferencePage)
+=======
+!ENTRY org.eclipse.ui 4 4 2018-12-05 19:29:26.543
+!MESSAGE Unable to process element: view in perspective extension: null
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2018-12-05 20:14:03.757
+!MESSAGE Full project indexing required:
+  [+] C:\pleiades\java\8\jre\lib\charsets.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\access-bridge-64.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\cldrdata.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\dnsns.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\jaccess.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\jfxrt.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\localedata.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\nashorn.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\sunec.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\sunjce_provider.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\sunmscapi.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\sunpkcs11.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\zipfs.jar
+  [+] C:\pleiades\java\8\jre\lib\jce.jar
+  [+] C:\pleiades\java\8\jre\lib\jfr.jar
+  [+] C:\pleiades\java\8\jre\lib\jsse.jar
+  [+] C:\pleiades\java\8\jre\lib\resources.jar
+  [+] C:\pleiades\java\8\jre\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:167)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.recommenders.types.rcp 1 4 2018-12-05 20:26:56.686
+!MESSAGE Full project indexing required:
+  [+] C:\pleiades\java\8\jre\lib\charsets.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\access-bridge-64.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\cldrdata.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\dnsns.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\jaccess.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\jfxrt.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\localedata.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\nashorn.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\sunec.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\sunjce_provider.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\sunmscapi.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\sunpkcs11.jar
+  [+] C:\pleiades\java\8\jre\lib\ext\zipfs.jar
+  [+] C:\pleiades\java\8\jre\lib\jce.jar
+  [+] C:\pleiades\java\8\jre\lib\jfr.jar
+  [+] C:\pleiades\java\8\jre\lib\jsse.jar
+  [+] C:\pleiades\java\8\jre\lib\resources.jar
+  [+] C:\pleiades\java\8\jre\lib\rt.jar
+
+!STACK 0
+org.eclipse.recommenders.utils.Logs$LogTraceException
+	at org.eclipse.recommenders.utils.Logs$LogTraceException.newTrace(Logs.java:381)
+	at org.eclipse.recommenders.utils.Logs.log(Logs.java:134)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.needsRebuild(ProjectTypesIndex.java:167)
+	at org.eclipse.recommenders.internal.types.rcp.ProjectTypesIndex.startUp(ProjectTypesIndex.java:122)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:745)
+>>>>>>> 9df263e4bd380b23dc2d6341bae8a26045f89032
+>>>>>>> a78d68bb2b4861f21ae230e8c7fbaa556649e6f7

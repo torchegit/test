@@ -1,6 +1,10 @@
 package jp.co.internous.action;
 
 public class SmartPhone extends Mp3Player {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> a78d68bb2b4861f21ae230e8c7fbaa556649e6f7
 	public void play(){
 		System.out.println("再生(ハイレゾ機能)");
 	}
@@ -13,6 +17,11 @@ public class SmartPhone extends Mp3Player {
 	public void back(){
 		System.out.println("戻る(ハイレゾ機能)");
 	}
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 9df263e4bd380b23dc2d6341bae8a26045f89032
+>>>>>>> a78d68bb2b4861f21ae230e8c7fbaa556649e6f7
 	public void call(){
 		System.out.println("電話");
 	}
