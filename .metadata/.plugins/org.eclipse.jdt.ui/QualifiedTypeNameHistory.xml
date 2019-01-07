@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+<<<<<<< HEAD
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="com.internousdev.login.dao.LoginDAO"/>
+=======
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+>>>>>>> 3fcc0ba2a350b03aa876262b7c7f5c3234bf6085
 </qualifiedTypeNameHistroy>

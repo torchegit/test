@@ -4,4 +4,10 @@
 		<item value="600" key="width"/>
 		<item value="400" key="height"/>
 	</section>
+<<<<<<< HEAD
+=======
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item value="false" key="deleteSubPackages"/>
+	</section>
+>>>>>>> 3fcc0ba2a350b03aa876262b7c7f5c3234bf6085
 </section>
