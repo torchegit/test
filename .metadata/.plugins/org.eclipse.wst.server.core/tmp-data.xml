@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <temp-directories>
+<<<<<<< HEAD
   <temp-directory age="0" key="ローカル・ホスト の Tomcat8 (Java8)" path="tmp0" recycle="false"/>
+=======
+  <temp-directory age="0" key="ローカル・ホスト の Tomcat8 (Java8)" path="tmp1" recycle="false"/>
+>>>>>>> 793d29e0892f4ad1506ef901f6bc67ad71faedaf
 </temp-directories>
