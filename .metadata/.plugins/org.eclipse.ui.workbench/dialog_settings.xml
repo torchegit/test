@@ -12,18 +12,6 @@
 		<list key="textArray">
 		</list>
 	</section>
-	<section name="NewWizardAction">
-		<item value="org.eclipse.datatools.sqltools.internal.sqlscrapbook.wizards.NewSQLScrapbookFileCreationWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
-		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-<<<<<<< HEAD
-			<item value="org.eclipse.emf.codegen.ecore.ui.wizardCategory"/>
-			<item value="org.eclipse.wst.XMLCategory"/>
-			<item value="org.eclipse.jpt.dbws"/>
-=======
-			<item value="org.eclipse.datatools.sql"/>
->>>>>>> 793d29e0892f4ad1506ef901f6bc67ad71faedaf
-		</list>
-	</section>
 	<section name="ImportExportAction">
 		<item value="org.eclipse.ui.wizards.import.ExternalProject" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
