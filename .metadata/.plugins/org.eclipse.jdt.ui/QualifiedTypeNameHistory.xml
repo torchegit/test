@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+<<<<<<< HEAD
 <fullyQualifiedTypeName name="com.internousdev.webproj3.dto.HelloStrutsDTO"/>
+=======
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+>>>>>>> b9f2e8fa9b0492f0275387a9441a253021790e8d
 </qualifiedTypeNameHistroy>

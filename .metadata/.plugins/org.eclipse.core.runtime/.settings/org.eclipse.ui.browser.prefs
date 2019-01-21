@@ -1,2 +1,6 @@
 eclipse.preferences.version=1
+<<<<<<< HEAD
 internalWebBrowserHistory=http\://localhost\:8080/WebProj2/|*|http\://localhost\:8080/WebProj2/TestAction.action;jsessionid\=7791D59DF05AB59AA53ECD18AEC2097D|*|http\://localhost\:8080/WebProj2/TestAction.action;jsessionid\=7791D59DF05AB59AA53ECD18AEC2097D?username\=goro&password\=01|*|
+=======
+internalWebBrowserHistory=http\://localhost\:8080/WebProj2/InquiryAction.action|*|http\://localhost\:8080/WebProj2/InquiryCompleteAction.action|*|http\://localhost\:8080/WebProj2/|*|http\://localhost\:8080/WebProj2/WelcomeAction.action|*|http\://localhost\:8080/WebProj2/LoginAction.action|*|http\://localhost\:8080/WebProj2/WelcomeAction.action;jsessionid\=921EE8B3697040A048E908072175C44A|*|
+>>>>>>> b9f2e8fa9b0492f0275387a9441a253021790e8d

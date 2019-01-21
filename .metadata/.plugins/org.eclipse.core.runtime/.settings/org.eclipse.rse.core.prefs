@@ -1,3 +1,6 @@
 eclipse.preferences.version=1
 org.eclipse.rse.systemtype.local.systemType.defaultUserId=testuser
+<<<<<<< HEAD
 useridperkey=internous-PC.\u30ED\u30FC\u30AB\u30EB\=testuser;
+=======
+>>>>>>> b9f2e8fa9b0492f0275387a9441a253021790e8d

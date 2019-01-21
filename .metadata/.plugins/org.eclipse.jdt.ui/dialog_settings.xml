@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+<<<<<<< HEAD
 	<section name="RefactoringWizard.preview">
 		<item value="600" key="width"/>
 		<item value="400" key="height"/>
@@ -11,6 +12,8 @@
 		<item value="1" key="updateSimilarElementsMatchStrategy"/>
 		<item value="false" key="updateTextualMatches"/>
 	</section>
+=======
+>>>>>>> b9f2e8fa9b0492f0275387a9441a253021790e8d
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item value="1" key="layout"/>
 		<item value="true" key="group_libraries"/>
@@ -27,9 +30,12 @@
 	</section>
 	<section name="quick_assist_proposal_size">
 	</section>
+<<<<<<< HEAD
 	<section name="NewPackageWizardPage">
 		<item value="false" key="create_package_info_java"/>
 	</section>
+=======
+>>>>>>> b9f2e8fa9b0492f0275387a9441a253021790e8d
 	<section name="completion_proposal_size">
 	</section>
 	<section name="JavaElementSearchActions">
