@@ -1,0 +1,4 @@
+127.0.0.1 - - [21/Jan/2019:19:28:53 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [21/Jan/2019:19:28:57 +0900] "GET /WebProj2/ HTTP/1.1" 200 2313
+0:0:0:0:0:0:0:1 - - [21/Jan/2019:19:29:27 +0900] "GET /WebProj2/TestAction.action;jsessionid=7791D59DF05AB59AA53ECD18AEC2097D?username=goro&password=01 HTTP/1.1" 200 202
+0:0:0:0:0:0:0:1 - - [21/Jan/2019:19:30:28 +0900] "POST /WebProj2/TestAction.action;jsessionid=7791D59DF05AB59AA53ECD18AEC2097D HTTP/1.1" 200 205
