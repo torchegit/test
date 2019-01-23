@@ -1,6 +1,0 @@
-<<<<<<< HEAD
-2019-01-21 19:27:48,921 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
-2019-01-21 21:35:38,706 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
-=======
-2019-01-18 19:33:46,274 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
->>>>>>> b9f2e8fa9b0492f0275387a9441a253021790e8d
