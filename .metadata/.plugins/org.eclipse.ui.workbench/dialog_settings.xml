@@ -12,6 +12,15 @@
 		<list key="textArray">
 		</list>
 	</section>
+<<<<<<< HEAD
+=======
+	<section name="NewWizardAction">
+		<item value="org.eclipse.wst.css.ui.internal.wizard.NewCSSWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.wst.web.ui"/>
+		</list>
+	</section>
+>>>>>>> 492307e4d527130765016b81e0fd52b0890e25f1
 	<section name="ImportExportAction">
 		<item value="org.eclipse.ui.wizards.import.ExternalProject" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">

@@ -10,6 +10,7 @@ table th {
 	padding: 8px 15px;
 	background: #258;
 	background:-moz-linear-gradient(rgba(34,85,136,0,7),rgba(34,85,136,0,9) 50%);
+<<<<<<< HEAD
 	background:-webkit-gradient(linear, 100% 0%, 100% 50%, from(rgba(34,85,136,0,7)), to(rgba(34,85,136,0,9)));
 	font-weight: bold;
 	border-left:1px solid #258;
@@ -57,3 +58,7 @@ table tr:hover {
 	background: #bbb4ee;
 	cursor:pointer;
 }
+=======
+
+}
+>>>>>>> 492307e4d527130765016b81e0fd52b0890e25f1

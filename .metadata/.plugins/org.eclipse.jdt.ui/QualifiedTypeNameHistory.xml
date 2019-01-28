@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+<<<<<<< HEAD
 <fullyQualifiedTypeName name="java.sql.Connection"/>
+=======
+<fullyQualifiedTypeName name="com.internousdev.webproj3.dao.InquiryCompleteDAO"/>
+>>>>>>> 492307e4d527130765016b81e0fd52b0890e25f1
 </qualifiedTypeNameHistroy>
