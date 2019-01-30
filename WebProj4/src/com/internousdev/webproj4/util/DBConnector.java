@@ -13,7 +13,11 @@ public class DBConnector {
 	/**
 	 * データベース接続 URL
 	 */
+<<<<<<< HEAD
 	private static String url = "jdbc:mysql://localhost/testdb_k";
+=======
+	private static String url = "jdbc:mysql://localhost/testdb";
+>>>>>>> b75be0697fd0b0f682678325a0f904de0b51b1dc
 	/**
 	 * データベース接続ユーザ名
 	 */

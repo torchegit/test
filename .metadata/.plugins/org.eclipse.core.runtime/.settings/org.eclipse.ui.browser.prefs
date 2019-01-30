@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 eclipse.preferences.version=1
 internalWebBrowserHistory=http\://localhost\:8080/WebProj4/HelloStrutsAction.action|*|http\://localhost\:8080/WebProj4/|*|http\://localhost\:8080/WebProj4/HelloStrutsAction.action;jsessionid\=D50F5FC386268639E33A10498DE9B363|*|
+=======
+eclipse.preferences.version=1
+internalWebBrowserHistory=http\://localhost\:8080/WebProj3/|*|http\://localhost\:8080/WebProj3/TestAction.action|*|http\://localhost\:8080/WebProj3/TestAction.action?username\=kanae&password\=2434|*|http\://localhost\:8080/WebProj3/InquiryAction.action;jsessionid\=23770DA1CB2965ED58E67A6A3FA25146|*|http\://localhost\:8080/WebProj3/InquiryCompleteAction.action|*|
+>>>>>>> b75be0697fd0b0f682678325a0f904de0b51b1dc
