@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 [[{"location":"C:\\pleiades\\java\\8","type":"JRE","hints":{}},"jre:jre:1.8.0"],[{"location":"C:\\Users\\testuser\\Desktop\\workspace\\workspace-kamei\\test\\WebProj4","type":"PROJECT","hints":{"PROJECT_NAME":"WebProj4"}},"ABSENT"]]
+=======
+[[{"location":"C:\\Users\\testuser\\Desktop\\workspace\\workspace-kamei\\test\\WebProj4","type":"PROJECT","hints":{"PROJECT_NAME":"WebProj4"}},"ABSENT"],[{"location":"C:\\pleiades\\java\\8","type":"JRE","hints":{}},"jre:jre:1.8.0"]]
+>>>>>>> 2c89a72b1dd336a7665736b003c83f03b4a106a9

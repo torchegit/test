@@ -8,9 +8,15 @@
 </head>
 <body>
 名前とパスワードを入力してください。
+<<<<<<< HEAD
 <s:form action="LoginAction">
 	<s:textfield name="username" label="ユーザー名" />
 	<s:password name="password" label="パスワード" />
+=======
+<s:form>
+	<s:textfield name="username" label="ユーザー名：" />
+	<s:password name="password" label="パスワード：" />
+>>>>>>> 2c89a72b1dd336a7665736b003c83f03b4a106a9
 	<s:submit value="送信"/>
 </s:form>
 </body>
