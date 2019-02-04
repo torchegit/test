@@ -20,6 +20,7 @@
 	<s:form action="InquiryAction">
 		<s:submit value="問い合わせ" />
 	</s:form>
+<<<<<<< HEAD
 	<br>
 	<h3>新規ユーザー登録</h3>
 	GET通信
@@ -34,5 +35,7 @@
 	<s:password name="password"/>
 	<s:submit value="送信"/>
 	</s:form>
+=======
+>>>>>>> 7ee33564aa18078133ae73c7015b9ce16c3cf728
 </body>
 </html>
