@@ -1,0 +1,12 @@
+127.0.0.1 - - [30/Jan/2019:19:48:50 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [30/Jan/2019:19:48:54 +0900] "GET /WebProj4/ HTTP/1.1" 200 459
+0:0:0:0:0:0:0:1 - - [30/Jan/2019:19:49:07 +0900] "POST /WebProj4/HelloStrutsAction.action;jsessionid=D50F5FC386268639E33A10498DE9B363 HTTP/1.1" 200 9436
+127.0.0.1 - - [30/Jan/2019:20:02:29 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [30/Jan/2019:20:02:30 +0900] "GET /WebProj4/ HTTP/1.1" 200 415
+0:0:0:0:0:0:0:1 - - [30/Jan/2019:20:02:34 +0900] "POST /WebProj4/HelloStrutsAction.action HTTP/1.1" 200 9436
+0:0:0:0:0:0:0:1 - - [30/Jan/2019:20:25:33 +0900] "GET /WebProj4/ HTTP/1.1" 200 415
+0:0:0:0:0:0:0:1 - - [30/Jan/2019:20:25:36 +0900] "POST /WebProj4/HelloStrutsAction.action HTTP/1.1" 200 9436
+127.0.0.1 - - [30/Jan/2019:20:28:15 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [30/Jan/2019:20:28:17 +0900] "GET /WebProj4/ HTTP/1.1" 200 415
+0:0:0:0:0:0:0:1 - - [30/Jan/2019:20:28:20 +0900] "POST /WebProj4/HelloStrutsAction.action HTTP/1.1" 200 684
+0:0:0:0:0:0:0:1 - - [30/Jan/2019:20:28:20 +0900] "GET /WebProj4/css/style.css HTTP/1.1" 200 1422

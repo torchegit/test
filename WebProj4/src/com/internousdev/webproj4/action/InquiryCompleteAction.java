@@ -27,6 +27,10 @@ public class InquiryCompleteAction extends ActionSupport {
 		}
 		return ret;
 	}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 8f26d54d721b2735f584208d3a8d591d1b0c1c58
 
 	public String getName() {
 		return name;
@@ -59,4 +63,9 @@ public class InquiryCompleteAction extends ActionSupport {
 	public void setInquiryDTOList(List<InquiryDTO> inquiryDTOList) {
 		this.inquiryDTOList = inquiryDTOList;
 	}
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 7ee33564aa18078133ae73c7015b9ce16c3cf728
+>>>>>>> 8f26d54d721b2735f584208d3a8d591d1b0c1c58
 }

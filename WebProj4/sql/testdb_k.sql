@@ -1,6 +1,24 @@
+<<<<<<< HEAD
 drop database if exists testdb_kk;
 create database testdb_kk;
 use testdb_kk;
+=======
+<<<<<<< HEAD
+drop database if exists testdb_kk;
+create database testdb_kk;
+use testdb_kk;
+=======
+<<<<<<< HEAD
+drop database if exists testdb_kk;
+create database testdb_kk;
+use testdb_kk;
+=======
+drop database if exists testdb_k;
+create database testdb_k;
+use testdb_k;
+>>>>>>> 2c89a72b1dd336a7665736b003c83f03b4a106a9
+>>>>>>> 7ee33564aa18078133ae73c7015b9ce16c3cf728
+>>>>>>> 8f26d54d721b2735f584208d3a8d591d1b0c1c58
 
 
 create table users(
