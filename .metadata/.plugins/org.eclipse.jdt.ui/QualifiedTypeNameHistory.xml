@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<<<<<<< HEAD
+<fullyQualifiedTypeName name="com.internousdev.webproj5.dao.HelloStrutsDAO"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj5.dto.HelloStrutsDTO"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj5.util.DBConnector"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-=======
-<<<<<<< HEAD
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-=======
-<<<<<<< HEAD
-<fullyQualifiedTypeName name="java.sql.Connection"/>
-=======
-<fullyQualifiedTypeName name="com.internousdev.webproj3.dao.InquiryCompleteDAO"/>
->>>>>>> 492307e4d527130765016b81e0fd52b0890e25f1
->>>>>>> 2c89a72b1dd336a7665736b003c83f03b4a106a9
->>>>>>> 8f26d54d721b2735f584208d3a8d591d1b0c1c58
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="org.apache.struts2.interceptor.SessionAware"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj5.dao.LoginDAO"/>
+<fullyQualifiedTypeName name="com.internousdev.webproj5.dto.LoginDTO"/>
+<fullyQualifiedTypeName name="com.opensymphony.xwork2.ActionSupport"/>
 </qualifiedTypeNameHistroy>
