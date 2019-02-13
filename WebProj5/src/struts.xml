@@ -25,6 +25,7 @@
 </action>
 
 
+<<<<<<< HEAD
 <action name="InquiryAction" class="com.internousdev.webproj5.action.InquiryAction" method="execute">
 <result name="success">inquiry.jsp</result>
 </action>
@@ -34,5 +35,7 @@
 method="execute">
 <result name="success">inquiryComplete.jsp</result>
 </action>
+=======
+>>>>>>> f0deecaec06430166c5b22db5aa293d1fcf39f35
 </package>
 </struts>

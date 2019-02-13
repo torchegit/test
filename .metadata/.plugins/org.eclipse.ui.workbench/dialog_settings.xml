@@ -12,6 +12,11 @@
 		<list key="textArray">
 		</list>
 	</section>
+<<<<<<< HEAD
+=======
+	<section name="NewWizardAction">
+	</section>
+>>>>>>> f0deecaec06430166c5b22db5aa293d1fcf39f35
 	<section name="ImportExportAction">
 		<item value="org.eclipse.ui.wizards.import.ExternalProject" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
