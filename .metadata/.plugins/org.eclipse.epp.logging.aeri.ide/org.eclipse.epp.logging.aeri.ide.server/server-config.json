@@ -1,27 +1,7 @@
 {
   "version": "v1",
   "title": "Eclipse",
-<<<<<<< HEAD
-  "timestamp": 1549447155047,
-=======
-<<<<<<< HEAD
-  "timestamp": 1549274872084,
-=======
-<<<<<<< HEAD
-  "timestamp": 1549015341713,
-=======
-<<<<<<< HEAD
-  "timestamp": 1548842422443,
-=======
-<<<<<<< HEAD
-  "timestamp": 1548669318611,
-=======
-  "timestamp": 1548410996595,
->>>>>>> 492307e4d527130765016b81e0fd52b0890e25f1
->>>>>>> b75be0697fd0b0f682678325a0f904de0b51b1dc
->>>>>>> 2c89a72b1dd336a7665736b003c83f03b4a106a9
->>>>>>> 7ee33564aa18078133ae73c7015b9ce16c3cf728
->>>>>>> 8f26d54d721b2735f584208d3a8d591d1b0c1c58
+  "timestamp": 1550053636181,
   "ttl": 10080,
   "helpUrl": "https://dev.eclipse.org/recommenders/community/aeri/v2/help/",
   "feedbackUrl": "https://www.codetrails.com/error-analytics/",
@@ -89,25 +69,5 @@
     "org.eclipse.pde.core::The current target platform contains errors*",
     "org.eclipse.ui::Conflicting handlers for*"
   ],
-<<<<<<< HEAD
-  "problemsZipLastDownloadTimestamp": 1549447478136
-=======
-<<<<<<< HEAD
-  "problemsZipLastDownloadTimestamp": 0
-=======
-<<<<<<< HEAD
-  "problemsZipLastDownloadTimestamp": 1549015648976
-=======
-<<<<<<< HEAD
-  "problemsZipLastDownloadTimestamp": 1548842746071
-=======
-<<<<<<< HEAD
-  "problemsZipLastDownloadTimestamp": 1548669632569
-=======
-  "problemsZipLastDownloadTimestamp": 1548411335792
->>>>>>> 492307e4d527130765016b81e0fd52b0890e25f1
->>>>>>> b75be0697fd0b0f682678325a0f904de0b51b1dc
->>>>>>> 2c89a72b1dd336a7665736b003c83f03b4a106a9
->>>>>>> 7ee33564aa18078133ae73c7015b9ce16c3cf728
->>>>>>> 8f26d54d721b2735f584208d3a8d591d1b0c1c58
+  "problemsZipLastDownloadTimestamp": 1550053943520
 }
