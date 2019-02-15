@@ -26,6 +26,18 @@
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e414980cae7ddc8d64fc84174eb276d054c85982
+=======
+>>>>>>> e414980cae7ddc8d64fc84174eb276d054c85982
+=======
+>>>>>>> e414980cae7ddc8d64fc84174eb276d054c85982
+=======
+>>>>>>> e414980cae7ddc8d64fc84174eb276d054c85982
 <action name="InquiryAction" class="com.internousdev.webproj5.action.InquiryAction" method="execute">
 <result name="success">inquiry.jsp</result>
 </action>
@@ -35,7 +47,32 @@
 method="execute">
 <result name="success">inquiryComplete.jsp</result>
 </action>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+
+<action name="TestAction" class="com.internousdev.webproj5.action.TestAction" method="execute">
+<result name="success">test.jsp</result>
+</action>
+
+
+=======
 =======
 >>>>>>> f0deecaec06430166c5b22db5aa293d1fcf39f35
+>>>>>>> e414980cae7ddc8d64fc84174eb276d054c85982
+=======
+=======
+>>>>>>> f0deecaec06430166c5b22db5aa293d1fcf39f35
+>>>>>>> e414980cae7ddc8d64fc84174eb276d054c85982
+=======
+=======
+>>>>>>> f0deecaec06430166c5b22db5aa293d1fcf39f35
+>>>>>>> e414980cae7ddc8d64fc84174eb276d054c85982
+=======
+=======
+>>>>>>> f0deecaec06430166c5b22db5aa293d1fcf39f35
+>>>>>>> e414980cae7ddc8d64fc84174eb276d054c85982
 </package>
 </struts>
