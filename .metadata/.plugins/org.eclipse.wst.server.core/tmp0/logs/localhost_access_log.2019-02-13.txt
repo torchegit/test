@@ -1,0 +1,16 @@
+127.0.0.1 - - [13/Feb/2019:19:53:47 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:19:53:53 +0900] "GET /WebProj5/ HTTP/1.1" 200 784
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:20:00:48 +0900] "POST /WebProj5/WelcomeAction.action;jsessionid=E6D6AA4B76329B78EED266F52B2B2990 HTTP/1.1" 200 842
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:20:01:00 +0900] "POST /WebProj5/LoginAction.action HTTP/1.1" 200 9406
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:20:05:17 +0900] "GET /WebProj5/ HTTP/1.1" 200 696
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:20:05:22 +0900] "POST /WebProj5/WelcomeAction.action HTTP/1.1" 200 842
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:20:05:31 +0900] "POST /WebProj5/LoginAction.action HTTP/1.1" 200 363
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:20:05:31 +0900] "GET /WebProj5/css/style.css HTTP/1.1" 200 1419
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:20:05:39 +0900] "POST /WebProj5/LoginAction.action HTTP/1.1" 200 478
+127.0.0.1 - - [13/Feb/2019:21:43:25 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:21:43:28 +0900] "GET /WebProj5/ HTTP/1.1" 200 985
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:21:43:32 +0900] "POST /WebProj5/InquiryAction.action HTTP/1.1" 200 943
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:21:43:46 +0900] "POST /WebProj5/InquiryCompleteAction.action HTTP/1.1" 200 493
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:21:43:46 +0900] "GET /WebProj5/css/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:21:43:52 +0900] "POST /WebProj5/InquiryCompleteAction.action HTTP/1.1" 200 617
+0:0:0:0:0:0:0:1 - - [13/Feb/2019:21:43:59 +0900] "POST /WebProj5/InquiryCompleteAction.action HTTP/1.1" 200 759

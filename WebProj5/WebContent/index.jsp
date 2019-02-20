@@ -14,9 +14,68 @@
 	<s:form action="WelcomeAction">
 		<s:submit value="Welcome"/>
 	</s:form>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> e414980cae7ddc8d64fc84174eb276d054c85982
+=======
+>>>>>>> e414980cae7ddc8d64fc84174eb276d054c85982
+=======
+>>>>>>> e414980cae7ddc8d64fc84174eb276d054c85982
+=======
+>>>>>>> e414980cae7ddc8d64fc84174eb276d054c85982
+>>>>>>> e62fde1bdf6e8fdefca125cecb33ed21344b681a
+>>>>>>> ce46e42b35adbef6712276a67391fe15f0b38d1c
 
 	<s:form action="InquiryAction">
 		<s:submit value="問い合わせ"/>
 	</s:form>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+	<h3>新規ユーザー登録</h3>
+	GET 通信
+	<s:form method="get" action="TestAction">
+	<s:textfield name="username"/>
+	<s:password name="password"/>
+	<s:submit value="送信"/>
+	</s:form>
+	POST 通信
+	<s:form method="post" action="TestAction">
+	<s:textfield name="username"/>
+	<s:password name="password"/>
+	<s:submit value="送信"/>
+	</s:form>
+=======
+=======
+>>>>>>> f0deecaec06430166c5b22db5aa293d1fcf39f35
+>>>>>>> e414980cae7ddc8d64fc84174eb276d054c85982
+=======
+=======
+>>>>>>> f0deecaec06430166c5b22db5aa293d1fcf39f35
+>>>>>>> e414980cae7ddc8d64fc84174eb276d054c85982
+=======
+=======
+>>>>>>> f0deecaec06430166c5b22db5aa293d1fcf39f35
+>>>>>>> e414980cae7ddc8d64fc84174eb276d054c85982
+=======
+=======
+>>>>>>> f0deecaec06430166c5b22db5aa293d1fcf39f35
+>>>>>>> e414980cae7ddc8d64fc84174eb276d054c85982
+>>>>>>> e62fde1bdf6e8fdefca125cecb33ed21344b681a
+>>>>>>> ce46e42b35adbef6712276a67391fe15f0b38d1c
 </body>
 </html>

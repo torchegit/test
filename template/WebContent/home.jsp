@@ -25,6 +25,7 @@
 		color:#333;
 		background:#fff;
 	}
+<<<<<<< HEAD
 	
 	table {
 		text-align:center;
@@ -75,5 +76,11 @@
 		<div id="pr">
 		</div>
 	</div>
+=======
+	</style>
+</head>
+<body>
+
+>>>>>>> ce46e42b35adbef6712276a67391fe15f0b38d1c
 </body>
 </html>

@@ -1,1 +1,13 @@
+<<<<<<< HEAD
 [[{"location":"C:\\Users\\testuser\\Desktop\\workspace\\workspace-kamei\\test\\template","type":"PROJECT","hints":{"PROJECT_NAME":"template"}},"ABSENT"],[{"location":"C:\\pleiades\\java\\8","type":"JRE","hints":{}},"jre:jre:1.8.0"]]
+=======
+<<<<<<< HEAD
+{}
+=======
+<<<<<<< HEAD
+[[{"location":"C:\\Users\\testuser\\Desktop\\workspace\\workspace-kamei\\test\\WebProj5\\WebContent\\WEB-INF\\lib\\xwork-core-2.3.36.jar","type":"JAR","hints":{}},"org.apache.struts.xwork:xwork-core:2.3.36"],[{"location":"C:\\pleiades\\java\\8","type":"JRE","hints":{}},"jre:jre:1.8.0"],[{"location":"C:\\Users\\testuser\\Desktop\\workspace\\workspace-kamei\\test\\WebProj5","type":"PROJECT","hints":{"PROJECT_NAME":"WebProj5"}},"ABSENT"]]
+=======
+[[{"location":"C:\\Users\\testuser\\Desktop\\workspace\\workspace-kamei\\test\\WebProj5\\WebContent\\WEB-INF\\lib\\xwork-core-2.3.36.jar","type":"JAR","hints":{}},"org.apache.struts.xwork:xwork-core:2.3.36"],[{"location":"C:\\Users\\testuser\\Desktop\\workspace\\workspace-kamei\\test\\WebProj5","type":"PROJECT","hints":{"PROJECT_NAME":"WebProj5"}},"ABSENT"],[{"location":"C:\\pleiades\\java\\8","type":"JRE","hints":{}},"jre:jre:1.8.0"]]
+>>>>>>> f0deecaec06430166c5b22db5aa293d1fcf39f35
+>>>>>>> e62fde1bdf6e8fdefca125cecb33ed21344b681a
+>>>>>>> ce46e42b35adbef6712276a67391fe15f0b38d1c

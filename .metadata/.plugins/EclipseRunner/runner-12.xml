@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <runner version="1.0.0">
 <category name="カテゴリーなし">
+<<<<<<< HEAD:.metadata/.plugins/EclipseRunner/runner-12.xml
 <launchConfiguration bookmark="false" name="_login.jsp"/>
+=======
+<launchConfiguration bookmark="false" name="WebProj5"/>
+>>>>>>> ce46e42b35adbef6712276a67391fe15f0b38d1c:.metadata/.plugins/EclipseRunner/runner-12.xml
 <launchConfiguration bookmark="false" name="ローカル・ホスト の Tomcat8 (Java8)"/>
 </category>
 </runner>
