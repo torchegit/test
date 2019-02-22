@@ -26,6 +26,9 @@
 		background:#fff;
 	}
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f7a47b02654efad3020cce9b44a9c32e926ebc8a
 	
 	table {
 		text-align:center;
@@ -76,11 +79,14 @@
 		<div id="pr">
 		</div>
 	</div>
+<<<<<<< HEAD
+=======
 =======
 	</style>
 </head>
 <body>
 
 >>>>>>> ce46e42b35adbef6712276a67391fe15f0b38d1c
+>>>>>>> f7a47b02654efad3020cce9b44a9c32e926ebc8a
 </body>
 </html>

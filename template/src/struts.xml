@@ -11,6 +11,18 @@
 	<package name="com.internousdev.template.action" extends="struts-default">
 		<!-- HomeAction -->
 <<<<<<< HEAD
+		<action name="HomeAction" class="com.internousdev.template.action.HomeAction"
+ method="execute">
+			<result name="success">login.jsp</result>
+ 		</action>
+		<!-- LoginAction -->
+		<action name="LoginAction" class="com.internousdev.template.action.LoginAction"
+ method="execute">
+			<result name="success">buyItem.jsp</result>
+			<result name="error">home.jsp</result>
+		</action>
+=======
+<<<<<<< HEAD
 <!-- 		<action name="HomeAction" class="com.internousdev.template.action.HomeAction" -->
 <!-- method="execute"> -->
 <!-- 			<result name="success">login.jsp</result> -->
@@ -21,6 +33,7 @@
 <!-- 			<result name="success">buyItem.jsp</result> -->
 <!-- 			<result name="error">home.jsp</result> -->
 <!-- 		</action> -->
+>>>>>>> f7a47b02654efad3020cce9b44a9c32e926ebc8a
 
  		<!-- UserCreateAction -->
 <!-- 		<action name="UserCreateAction" -->
@@ -58,6 +71,8 @@
 <!-- class="com.internousdev.template.action.MyPageAction" method="execute"> -->
 <!-- 			<result name="success">myPage.jsp</result> -->
 <!-- 		</action> -->
+<<<<<<< HEAD
+=======
 =======
 		<action name="HomeAction" class="com.internousdev.template.action.HomeAction"
 method="execute">
@@ -107,6 +122,7 @@ class="com.internousdev.template.action.MyPageAction" method="execute">
 			<result name="success">myPage.jsp</result>
 		</action>
 >>>>>>> ce46e42b35adbef6712276a67391fe15f0b38d1c
+>>>>>>> f7a47b02654efad3020cce9b44a9c32e926ebc8a
 
 	</package>
 </struts>
