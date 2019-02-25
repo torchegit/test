@@ -50,9 +50,5 @@ create table user_buy_item_transaction(
 INSERT INTO item_info_transaction(item_name, item_price, item_stock) VALUES("ノートBook",100,
 50);
 
-<<<<<<< HEAD
 INSERT INTO login_user_transaction(login_id, login_pass, user_name) VALUES("internous",
-=======
-INSERT INTO login_user_transaction(lofin_id, login_pass, user_name) VALUES("internous",
->>>>>>> f7a47b02654efad3020cce9b44a9c32e926ebc8a
 "internous01","test");

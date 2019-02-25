@@ -1,10 +1,5 @@
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=ce46e42b35adbef6712276a67391fe15f0b38d1c
 eclipse.preferences.version=1
-<<<<<<< HEAD
-internalWebBrowserHistory=http\://localhost\:8080/template/login.jsp|*|http\://localhost\:8080/template/|*|http\://localhost\:8080/template/home.jsp|*|
-=======
-<<<<<<< HEAD
-internalWebBrowserHistory=http\://localhost\:8080/WebProj5/InquiryCompleteAction.action|*|http\://localhost\:8080/WebProj5/InquiryAction.action|*|http\://localhost\:8080/WebProj5/|*|http\://localhost\:8080/WebProj5/LoginAction.action|*|http\://localhost\:8080/WebProj5/WelcomeAction.action|*|http\://localhost\:8080/WebProj5/WelcomeAction.action;jsessionid\=E6D6AA4B76329B78EED266F52B2B2990|*|
-=======
-internalWebBrowserHistory=http\://localhost\:8080/WebProj5/|*|http\://localhost\:8080/WebProj5/HelloStrutsAction.action;jsessionid\=8C14A5481D3876F91928260D7046CBAC|*|
->>>>>>> f0deecaec06430166c5b22db5aa293d1fcf39f35
->>>>>>> ce46e42b35adbef6712276a67391fe15f0b38d1c
+internalWebBrowserHistory=http\://localhost\:8080/template/UserCreateAction.action|*|http\://localhost\:8080/template/UserCreateConfirmAction|*|http\://localhost\:8080/template/HomeAction.action;jsessionid\=5B1A6842DA080A161B2BD54A080B544E|*|http\://localhost\:8080/template/|*|http\://localhost\:8080/WebProj5/|*|http\://localhost\:8080/WebProj5/HelloStrutsAction.action;jsessionid\=8C14A5481D3876F91928260D7046CBAC|*|

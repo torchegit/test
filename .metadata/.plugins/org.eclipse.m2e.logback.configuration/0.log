@@ -10,3 +10,5 @@
 >>>>>>> f0deecaec06430166c5b22db5aa293d1fcf39f35
 >>>>>>> e62fde1bdf6e8fdefca125cecb33ed21344b681a
 >>>>>>> ce46e42b35adbef6712276a67391fe15f0b38d1c
+2019-02-25 20:30:53,679 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
+2019-02-25 21:07:32,133 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
