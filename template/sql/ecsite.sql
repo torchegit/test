@@ -1,6 +1,5 @@
 set names utf8;
 set foreign_key_checks = 0;
-
 drop database if exists ecsite_kamei;
 
 create database if not exists ecsite_kamei;
