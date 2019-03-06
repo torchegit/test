@@ -15,7 +15,7 @@ throws SQLException {
 				DBConnector dbConnector = new DBConnector();
 				Connection connection = dbConnector.getConnection();
 				MyPageDTO myPageDTO = new MyPageDTO();
-				String sql = "SELECT iit.item_name,ubit.total_price,ubit.total_count,ubit.pay FROM user_buy_item_transaction ubit LEFT JOIN item_info_transaction iit ONubit.item_transaction_id = iit.id WHERE ubit.item_transaction_id = ? AND ubit.user_master_id = ? ORDER BY ubit.insert_date DESC";
+				String sql = "SELECT init.item_name,unit.total_price,unit.total_count,unit.pay FROM user_buy_item_transaction unit LEFT JOIN item_info_transaction init ON unit.item_transaction_id = init.id WHERE unit.item_transaction_id = ? AND unit.user_master_id = ? ORDER BY unit.insert_date DESC";
 
 				try {
 						PreparedStatement preparedStatement =
