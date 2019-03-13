@@ -80,10 +80,10 @@
 								<a href='<s:url action="GoHomeAction" />'>こちら</a></p>
 						</div>
 				</div>
+		</div>
 
-				<div id="footer">
-						<div id="pr">
-						</div>
+		<div id="footer">
+				<div id="pr">
 				</div>
 		</div>
 </body>
