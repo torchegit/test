@@ -103,8 +103,22 @@
 												<input type="radio" name="pay" value="2">クレジットカード
 										</td>
 								</tr>
+								<tr>
+										<td>
+												<s:submit value="購入" />
+										</td>
+								</tr>
 						</table>
 						</s:form>
+						<div>
+								<p>前画面に戻る場合は<a href='<s:url action="GoHomeAction" />'>こちら</a></p>
+
+								<p>マイページは<a href='<s:url action="MyPageAction" />'>こちら</a></p>
+						</div>
+				</div>
+		</div>
+		<div id="footer">
+				<div id="pr">
 				</div>
 		</div>
 </body>

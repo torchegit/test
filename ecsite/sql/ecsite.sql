@@ -1,9 +1,9 @@
 set names utf8;
 set foreign_key_checks = 0;
-drop database if exists ecsite;
+drop database if exists ecsite_turtle;
 
-create database if not exists ecsite;
-use ecsite;
+create database if not exists ecsite_turtle;
+use ecsite_turtle;
 
 drop table if exists login_user_transaction;
 
@@ -19,9 +19,9 @@ drop table if exists item_info_transaction;
 
 create table item_info_transaction(
   id int not null primary key auto_increment,
-  login_id varchar(16) unique,
-  login_pass varchar(16),
-  user_name varchar(50),
+  item_name varchar(30),
+  item_price int,
+  item_stock int,
   insert_date datetime,
   update_date datetime
 );
