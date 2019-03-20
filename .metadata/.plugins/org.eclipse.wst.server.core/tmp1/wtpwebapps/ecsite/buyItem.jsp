@@ -28,6 +28,8 @@
 				  text-align:center;
 				  margin:0 auto;
 				}
+
+				/* ========ID LAYOUT======== */
 				#top {
 				  width:780px;
 				  margin:30px auto;
@@ -61,7 +63,7 @@
 						<p>BuyItem</p>
 				</div>
 				<div>
-						<s:form action="BuyItemAction">
+				<s:form action="BuyItemAction">
 						<table>
 								<tr>
 										<td>
@@ -109,7 +111,7 @@
 										</td>
 								</tr>
 						</table>
-						</s:form>
+					</s:form>
 						<div>
 								<p>前画面に戻る場合は<a href='<s:url action="GoHomeAction" />'>こちら</a></p>
 
