@@ -45,7 +45,7 @@
 
 				#main {
 				  width:100%;
-				  hight:500px;
+				  height:500px;
 				  text-align:center;
 				}
 				#footer {
